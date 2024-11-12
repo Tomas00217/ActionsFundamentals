@@ -79,5 +79,5 @@ jobs:
           sleep 10
       - name: Fifth step
         run: |
-          echo "Step 4 running..."
+          echo "Step 5 running..."
           sleep 10    
