@@ -20,4 +20,4 @@ jobs:
           who-to-greet: 'Tomas'
 
       - name: Output time of greeting
-        run: echo "The time of greeting - ${{ steps.hello-action.outputs.time }}"
+        run: echo "The time of greeting - ${{ steps.hello-docker-action.outputs.time }}"
